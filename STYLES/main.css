@@ -26,3 +26,12 @@
     left: 20px;
     top: 24px;
 }
+
+.img_logo {
+    width: 127px;
+    height: 44px;
+    background: url();
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}

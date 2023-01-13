@@ -1,0 +1,28 @@
+:root {
+    --bg: #FFFFFF;
+    --primary: #EB6C27;
+    --text: #3a3a3a;
+    --text--gray: #888888;
+}
+
+.body {
+    background-color: var(--bg);
+}
+
+.img_logo {
+    
+}
+
+.nav_bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    gap: 120px;
+    position: absolute;
+    width: 320px;
+    height: 53px;
+    left: 20px;
+    top: 24px;
+}

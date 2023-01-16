@@ -7,10 +7,8 @@
 
 .body {
     background-color: var(--bg);
-}
-
-.img_logo {
-    
+    position: relative;
+    width: 360px;
 }
 
 .nav_bar {
@@ -18,7 +16,6 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 0px;
     gap: 120px;
     position: absolute;
     width: 320px;
@@ -30,8 +27,25 @@
 .img_logo {
     width: 127px;
     height: 44px;
-    background: url();
-    flex: none;
-    order: 0;
-    flex-grow: 0;
+}
+
+.header_img {
+    position: absolute;
+    width: 667px;
+    height: 375px;
+    left: -172px;
+    top: 109px;
+}
+
+.text_header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 2px;
+    position: absolute;
+    width: 289px;
+    height: 73px;
+    left: 209px;
+    top: 179px;
 }

@@ -1,3 +1,4 @@
+/*root colors*/
 :root {
     --bg: #FFFFFF;
     --primary: #EB6C27;
@@ -8,10 +9,10 @@
 .body {
     background-color: var(--bg);
     position: relative;
-    width: 360px;
+    min-width: 375px;
 }
 
-/*buttons*/
+/*BUTTONS*/
 .btn_primary {
     background-color: var(--primary); 
     border: none;
@@ -67,8 +68,8 @@
     display: inline-block;
     font-size: 20px;
 }
-/*###################################################################################################*/
 
+/*NAVBAR*/
 .nav_bar {
     display: flex;
     flex-direction: row;
@@ -78,7 +79,6 @@
     position: absolute;
     width: 320px;
     height: 53px;
-    left: 20px;
     top: 24px;
 }
 
@@ -87,22 +87,80 @@
     height: 44px;
 }
 
-.header_img {
+/*FOOTER*/
+.footer__orange {
     position: absolute;
-    width: 380px;
-    height: 269px;
-    top: 100px;
+    width: 375px;
+    height: 283px;
+    background: var(--primary);
+    left: 0px;
 }
 
-.text_header {
+.footer__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    width: 288px;
+    height: 176px;
+    left: 36px;
+}
+
+.footer__wrapper--text {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 0px;
-    gap: 2px;
-    position: absolute;
-    width: 289px;
-    height: 73px;
-    left: 209px;
-    top: 179px;
+    gap: 8px;
+    width: 288px;
+    height: 92px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.footer__orange--heading {
+    width: 288px;
+    height: 30px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: -0.05em;
+    color: var(--bg);
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.footer__orange--text {
+    width: 288px;
+    height: 36px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: var(--bg);
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.btn--light--footer {
+    background-color: var(--bg); 
+    border: none;
+    width: 170px;
+    height: 41px;
+    color: var(--primary);
+    padding: 12px, 40px, 12px, 40px;
+    top: 70px;
+    gap: 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 15px;
 }

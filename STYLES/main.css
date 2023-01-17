@@ -13,32 +13,33 @@
 
 /*buttons*/
 .btn_primary {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 12px 40px;
-    gap: 20px;
-    width: 195px;
-    height: 51px;
-    background: var(--primary);
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-}
-.btn_primary-text {
-    width: 115px;
-    height: 27px;
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 27px;  
+    background-color: var(--primary); 
+    border: none;
+    width: 170px;
+    height: 41px;
     color: var(--bg);
-    flex: none;
-    order: 0;
-    flex-grow: 0;
+    padding: 12px, 40px, 12px, 40px;
+    gap: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
 }
+
+.btn_primary--arrow {
+    background-color: var(--primary); 
+    border: none;
+    width: 170px;
+    height: 41px;
+    color: var(--bg);
+    padding: 12px, 40px, 12px, 40px;
+    gap: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
 
 .nav_bar {
     display: flex;

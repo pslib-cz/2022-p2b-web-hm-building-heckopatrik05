@@ -93,9 +93,16 @@ img {
     height: 44px;
 }
 
+/*HEADER*/
+.page-header--title{
+    background-color: var(--text);
+    color: var(--bg);
+}
+
 /*DUVERA*/
 .duvera{
-
+    color: var(--bg);
+    background-color: var(--text);
 }
 
 /*SLUŽBY*/

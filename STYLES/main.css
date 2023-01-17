@@ -11,6 +11,35 @@
     width: 360px;
 }
 
+/*buttons*/
+.btn_primary {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 40px;
+    gap: 20px;
+    width: 195px;
+    height: 51px;
+    background: var(--primary);
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.btn_primary-text {
+    width: 115px;
+    height: 27px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;  
+    color: var(--bg);
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
 .nav_bar {
     display: flex;
     flex-direction: row;
@@ -31,10 +60,9 @@
 
 .header_img {
     position: absolute;
-    width: 667px;
-    height: 375px;
-    left: -172px;
-    top: 109px;
+    width: 380px;
+    height: 269px;
+    top: 100px;
 }
 
 .text_header {

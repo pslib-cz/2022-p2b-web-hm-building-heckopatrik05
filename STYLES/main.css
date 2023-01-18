@@ -9,8 +9,6 @@
 .body {
     background-color: var(--bg);
     position: relative;
-    min-width: 375px;
-    font-family: 'Open Sans', sans-serif;
 }
 
 img {
@@ -51,7 +49,7 @@ img {
 
 .btn--outlined {
     background-color: var(--bg); 
-    border: 2px dashed var(--primary);
+    border: 2px dashed  var(--primary);
     width: 170px;
     height: 41px;
     color: var(--primary);
@@ -76,13 +74,12 @@ img {
 }
 
 /*NAVBAR*/
-.nav_bar {
+.page-nav--mobile {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     gap: 120px;
-    position: absolute;
     width: 320px;
     height: 53px;
     top: 24px;
@@ -94,15 +91,58 @@ img {
 }
 
 /*HEADER*/
-.page-header--title{
-    background-color: var(--text);
+.page-header {
+    position: relative;
+
+}
+
+.page-header--title {
+    font-size: 0.6em;
+    font-weight: bold;
+    text-align: center;
+    text-align: center;
+    margin: 0;
+}
+
+.page-header--title--light {
+    font-weight: lighter;
+}
+
+.header__photo{
+    filter: brightness(35%);
+}
+
+.text-block {
+    position: absolute;
+    bottom: 7%;
     color: var(--bg);
+}
+
+.header__text {
+    margin-top: 20%;
+    margin-bottom: 20%;
+}
+
+.header__text--h1 {
+    font-size: 1.6em;
+}
+
+.header__text--p {
+    font-size: 1em;
 }
 
 /*DUVERA*/
 .duvera{
-    color: var(--bg);
-    background-color: var(--text);
+   
+}
+
+.duvera-text {
+
+}
+
+.duvera_img {
+    max-width: 100%;
+    filter: brightness(35%);
 }
 
 /*SLUŽBY*/
@@ -114,33 +154,95 @@ img {
     border-bottom-left-radius: 60px;
 }
 
-/*REFERENCE*/
-.reference {
+.service-novostavby {
+    margin-top: 10px;
+}
 
+.service-prumyslove_stavby {
+    margin-top: 40px;
+}
+
+.service-rekonstrukce_domu {
+    margin-top: 40px;
+}
+
+.service-komunikace_zpevnene_plochy {
+    margin-top: 40px;
+}
+
+.služby--h3 {
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.service-komunikace_zpevnene_plochy {
+    margin-bottom: 20%;
+}
+
+/*REFERENCE*/
+.reference-header {
+    margin-top: 20%;
+    margin-bottom: 20%;
+}
+
+.reference-galerie--text{
+    font-size: .8em;
+    text-align: center;
+    margin-bottom: 10%;
+}
+
+.btn_primary--reference {
+    background-color: var(--primary); 
+    border: none;
+    width: 170px;
+    height: 41px;
+    color: var(--bg);
+    padding: 12px, 40px, 12px, 40px;
+    gap: 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;
+    margin-top: 7%;
+    margin-bottom: 30%;
 }
 
 /*FOOTER*/
 .footer__orange {
+    position: absolute;
     width: 375px;
     height: 283px;
-    background: var(--primary);
     left: 0px;
+    right: 0px;
+    background: var(--primary);
 }
 
 .footer__wrapper {
-   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .footer__wrapper--text {
-    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10%;
+    margin-bottom: 15%;
+    width: 288px;
+    height: 92px;
 }
 
 .footer__orange--heading {
     color: var(--bg);
+    font-size: 1.2em;
+    font-weight: bold;
 }
 
 .footer__orange--text {
     color: var(--bg);
+    font-size: .85em;
+    text-align: center;
+    font-weight: lighter;
 }
 
 .btn--light--footer {

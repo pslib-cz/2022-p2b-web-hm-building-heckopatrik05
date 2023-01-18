@@ -137,17 +137,37 @@ img {
 
 /*DUVERA*/
 .duvera{
+    position: absolute;
     left: 0px;
     right: 0px;
 }
 
 .duvera-text {
-
+    position: absolute;
+    bottom: 20%;
+    padding-left: 5%;
+    padding-right: 25%;
+    font-size: large;
+    color: var(--bg);
 }
 
 .duvera_img {
     max-width: 100%;
     filter: brightness(35%);
+}
+
+.btn_primary--duvera {
+    margin-top: 10%;
+    background-color: var(--primary); 
+    border: none;
+    width: 170px;
+    height: 41px;
+    color: var(--bg);
+    padding: 12px, 40px, 12px, 40px;
+    gap: 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;
 }
 
 /*SLUŽBY*/
@@ -185,6 +205,10 @@ img {
 }
 
 /*REFERENCE*/
+.reference {
+    margin-top: 110%;
+}
+
 .reference-header {
     margin-top: 20%;
     margin-bottom: 20%;

@@ -83,17 +83,21 @@ img {
     width: 320px;
     height: 53px;
     top: 24px;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 
 .logo {
     width: 127px;
     height: 44px;
+    object-fit: contain;
 }
 
 /*HEADER*/
 .page-header {
-    position: relative;
-
+    position: absolute;
+    left: 0px;
+    right: 0px;
 }
 
 .page-header--title {
@@ -119,7 +123,7 @@ img {
 }
 
 .header__text {
-    margin-top: 20%;
+    margin-top: 80%;
     margin-bottom: 20%;
 }
 
@@ -133,7 +137,8 @@ img {
 
 /*DUVERA*/
 .duvera{
-   
+    left: 0px;
+    right: 0px;
 }
 
 .duvera-text {
@@ -209,8 +214,8 @@ img {
 /*FOOTER*/
 .footer__orange {
     position: absolute;
-    width: 375px;
-    height: 283px;
+    min-width: 375px;
+    min-height: 283px;
     left: 0px;
     right: 0px;
     background: var(--primary);

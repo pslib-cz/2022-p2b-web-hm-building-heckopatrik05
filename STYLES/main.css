@@ -102,8 +102,7 @@ img {
 
 .page-header--title {
     font-size: 0.6em;
-    font-weight: bold;
-    text-align: center;
+    font-weight: bolder;
     text-align: center;
     margin: 0;
 }
@@ -118,6 +117,9 @@ img {
 
 .text-block {
     position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     bottom: 7%;
     color: var(--bg);
 }

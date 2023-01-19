@@ -188,17 +188,15 @@ img {
 }
 
 .btn_primary--duvera {
-    margin-top: 10%;
-    background-color: var(--primary); 
-    border: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     width: 170px;
     height: 41px;
-    color: var(--bg);
     padding: 12px, 40px, 12px, 40px;
-    gap: 20px;
-    text-align: center;
-    display: inline-block;
-    font-size: 20px;
+    gap: 10px;
+    background: var(--primary);
 }
 
 /*SLUŽBY*/
@@ -257,6 +255,10 @@ img {
 }
 
 .btn_primary--reference {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     background-color: var(--primary); 
     border: none;
     width: 170px;
@@ -319,8 +321,8 @@ img {
     align-items: center;
     padding: 12px, 40px, 12px, 40px;
     gap: 20px;
-    width: 170px;
-    height: 41px;
+    width: 200px;
+    height: 60px;
     background: var(--bg);
     text-decoration: none;
 }

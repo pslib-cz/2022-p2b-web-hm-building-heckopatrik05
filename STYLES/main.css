@@ -231,6 +231,11 @@ img {
 }
 
 /*REFERENCE*/
+
+.reference--page {
+    margin-top: 30%;
+}
+
 .reference {
     margin-top: 110%;
 }
@@ -310,4 +315,33 @@ img {
     text-align: center;
     display: inline-block;
     font-size: 15px;
+}
+
+
+/*O NAS*/
+.o_nas {
+    margin-top: 30%;
+    margin-bottom: 20%;
+}
+
+.o_nas--list {
+    color: var(--primary);
+}
+
+.o_nas--list--text {
+    color: var(--text);
+}
+
+/*NOVOSTAVBY*/
+.novostavby {
+    margin-top: 30%;
+    margin-bottom: 30%;
+}
+
+.novostavby--list {
+    color: var(--primary);
+}
+
+.novostavby--list--text {
+    color: var(--text);
 }

@@ -33,12 +33,39 @@
     <div class="kontaktujte_nas">
         <h1>Kontaktujte nás</h1>
         <p>Zavolejte anebo nám napište... kvalitní komunikace je jeden z pilířů, na kterém stavíme.</p>
-        <img src="media/mapa.jpg" alt="mapa">
+        <div class="kontaktujte_nas--photo">
+            <img class="kontakt--mapa" src="media/mapa.jpg" alt="mapa">
+        </div>
     </div>
 
     <div class="kontaktujte_nas--table">
-        <h1>Nezávazná poptávka služeb</h1>
-        <p>Plácneme si pro Váš projekt? Nezávazně nás kontaktujte a domluvme vše potřebné.</p>
+        <div class="kontaktujte_nas--table--text">
+            <h2>Nezávazná poptávka služeb</h2>
+            <p>Plácneme si pro Váš projekt? Nezávazně nás kontaktujte a domluvme vše potřebné.</p>
+        </div>
+            <form class="table">
+          
+              <label class="table--heading">Jméno a příjmení</label>
+              <input type="text" id="jmeno a prijmeni" name="jmeno a prijmeni">
+          
+              <label class="table--heading">E-mail</label>
+              <input type="text" id="email" name="email">
+                
+              <label class="table--heading">Telefon</label>
+              <input type="text" id="telefon">
+
+              <label class="table--heading">Služba</label>
+              <select id="sluzby" name="sluzby">
+                <option value="novostavba">Novostavba</option>
+                <option value="prumyslova stavba">Průmyslová stavba</option>
+                <option value="rekonstrukce">Rekonstrukce domů a jiných staveb</option>
+                <option value="komunikace">Komunikace a zpevněné plochy</option>
+              </select>
+          
+              <label class="table--heading">Poznámka</label>
+              <textarea id="poznamka" name="poznamka" style="height:200px"></textarea>
+            </form>
+        <a class="btn_primary--kontakt">Odeslat nezávaznou poptávku</a>
     </div>
     
 </body>

@@ -282,6 +282,7 @@ img {
     left: 0px;
     right: 0px;
     background: var(--primary);
+    margin-bottom: 5%;
 }
 
 .footer__wrapper {

@@ -459,3 +459,49 @@ input[type=text], select, textarea {
 .hasicska_zbrojnice--text {
     margin-top: 20%;
 }
+
+
+@media (min-width: 375px) {
+    
+    /*FOOTER*/
+    .footer__orange {
+        position: absolute;
+        left: 0px;
+        right: 0px;
+        background: var(--primary);
+    }
+    .footer__wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer__wrapper--text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 10%;
+        margin-bottom: 15%;
+    }
+    .footer__orange--heading {
+        color: var(--bg);
+        font-size: 1.2em;
+        font-weight: bold;
+    }
+    .footer__orange--text {
+        color: var(--bg);
+        font-size: .85em;
+        text-align: center;
+        font-weight: lighter;
+    }
+    .btn--light--footer {
+        color: var(--primary);
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 12px, 40px, 12px, 40px;
+        gap: 20px;
+        background: var(--bg);
+        text-decoration: none;
+    }
+}

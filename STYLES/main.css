@@ -461,7 +461,7 @@ input[type=text], select, textarea {
 }
 
 
-@media (min-width: 375px) {
+@media (min-width: 376px) {
     
     /*FOOTER*/
     .footer__orange {
@@ -479,17 +479,19 @@ input[type=text], select, textarea {
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin-top: 10%;
-        margin-bottom: 15%;
+        width: 800px;
+        height: 136px;
+        margin-top: 5%;
+        margin-bottom: 10%;
     }
     .footer__orange--heading {
         color: var(--bg);
-        font-size: 1.2em;
+        font-size: 7vh;
         font-weight: bold;
     }
     .footer__orange--text {
         color: var(--bg);
-        font-size: .85em;
+        font-size: 3.7vh;
         text-align: center;
         font-weight: lighter;
     }
@@ -503,5 +505,6 @@ input[type=text], select, textarea {
         gap: 20px;
         background: var(--bg);
         text-decoration: none;
+        margin-bottom: 5%;
     }
 }

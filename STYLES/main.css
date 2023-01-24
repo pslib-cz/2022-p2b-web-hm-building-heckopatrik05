@@ -9,6 +9,7 @@
 .body {
     background-color: var(--bg);
     position: relative;
+    color: var(--text--gray);
 }
 
 img {
@@ -255,15 +256,16 @@ img {
 }
 
 .btn_primary--reference {
+    margin: 40px auto 108px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: var(--primary);
-    text-align: center;
     width: 170px;
     height: 41px;
     color: var(--bg);
     padding: 12px, 40px, 12px, 40px;
     gap: 10px;
-    text-align: center;
-    display: inline-block;
     font-size: 20px;
     margin-top: 7%;
     margin-bottom: 30%;
@@ -507,4 +509,39 @@ input[type=text], select, textarea {
         text-decoration: none;
         margin-bottom: 5%;
     }
+
+    /*SLUZBY*/
+    .pravej_dolni_roh {
+        border-bottom-right-radius: 40px;
+    }
+    
+    .levej_dolni_roh {
+        border-bottom-left-radius: 40px;
+    }
+    
+    .service-novostavby {
+        margin-top: 10px;
+    }
+    
+    .service-prumyslove_stavby {
+        margin-top: 40px;
+    }
+    
+    .service-rekonstrukce_domu {
+        margin-top: 40px;
+    }
+    
+    .service-komunikace_zpevnene_plochy {
+        margin-top: 40px;
+    }
+    
+    .služby--h3 {
+        font-size: 20px;
+        font-weight: 900;
+    }
+    
+    .service-komunikace_zpevnene_plochy {
+        margin-bottom: 20%;
+    }
+
 }

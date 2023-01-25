@@ -17,6 +17,21 @@ img {
     height: 100%;
 }
 
+/*SCROLLBAR*/
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  ::-webkit-scrollbar-track {
+    background: var(--bg); 
+  }
+  ::-webkit-scrollbar-thumb {
+    background: var(--text--gray); 
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--primary); 
+  }
+
+
 
 /*SPAN*/
 .text--orange {
@@ -488,12 +503,12 @@ input[type=text], select, textarea {
     }
     .footer__orange--heading {
         color: var(--bg);
-        font-size: 7vh;
+        font-size: 5vh;
         font-weight: bold;
     }
     .footer__orange--text {
         color: var(--bg);
-        font-size: 3.7vh;
+        font-size: 3vh;
         text-align: center;
         font-weight: lighter;
     }
@@ -503,7 +518,8 @@ input[type=text], select, textarea {
         flex-direction: row;
         justify-content: center;
         align-items: center;
-        padding: 12px, 40px, 12px, 40px;
+        width: 320px;
+        padding: 20px, 50px, 20px, 50px;
         gap: 20px;
         background: var(--bg);
         text-decoration: none;
@@ -544,4 +560,27 @@ input[type=text], select, textarea {
         margin-bottom: 20%;
     }
 
+    /*NOVOSTAVBY*/
+    .novostavby {
+        margin-top: 20%;
+        margin-bottom: 30%;
+    }
+    .novostavby--list {
+        margin-left: 15%;
+        color: var(--primary);
+    }
+    .novostavby--list--text {
+        color: var(--text);
+    }
+
+    .novostavby_heading {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 8vh;
+    }
+    
+    .novostavby_text {
+        margin-left: 10%;
+    }
 }

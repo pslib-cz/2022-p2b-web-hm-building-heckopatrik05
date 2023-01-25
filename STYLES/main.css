@@ -562,12 +562,13 @@ input[type=text], select, textarea {
 
     /*NOVOSTAVBY*/
     .novostavby {
-        margin-top: 20%;
+        margin-top: 15%;
         margin-bottom: 30%;
     }
     .novostavby--list {
         margin-left: 15%;
         color: var(--primary);
+        line-height: 35px;
     }
     .novostavby--list--text {
         color: var(--text);
@@ -581,6 +582,46 @@ input[type=text], select, textarea {
     }
     
     .novostavby_text {
+        margin-left: 10%;
+    }
+
+    /*O NAS*/
+    .o_nas {
+        margin-top: 15%;
+        margin-bottom: 20%;
+    }
+
+    .o_nas--list {
+        margin-left: 15%;
+        color: var(--primary);
+        line-height: 35px;
+        margin-bottom: 5%;
+    }
+
+    .o_nas--list--text {
+        color: var(--text);
+    }
+
+    .o_nas--heading {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 8vh;
+    }
+
+    .o_nas--text1 {
+        margin-left: 10%;
+    }
+    .o_nas--text2 {
+        margin-left: 10%;
+    }
+    .o_nas--text3 {
+        margin-left: 10%;
+    }
+    .o_nas--text4 {
+        margin-left: 10%;
+    }
+    .o_nas--text5 {
         margin-left: 10%;
     }
 }

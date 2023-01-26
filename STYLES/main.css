@@ -398,6 +398,20 @@ img {
     color: var(--text);
 }
 
+/*REKONSTRUKCE DOMU*/
+.rekonstrukce_domu {
+    margin-top: 30%;
+    margin-bottom: 30%;
+}
+
+.rekonstrukce_domu--list {
+    color: var(--primary);
+}
+
+.rekonstrukce_domu--list--text {
+    color: var(--text);
+}
+
 /*SAMOOBSLUZNA PRADELNA*/
 .samoobsluzna_pradelna--gallery {
     margin-top: 10%;

@@ -379,6 +379,24 @@ img {
     color: var(--text);
 }
 
+/*PRUMYSLOVE STAVBY*/
+.prumyslove_stavby {
+    margin-top: 30%;
+    margin-bottom: 30%;
+}
+
+.prumyslove_stavby--list {
+    color: var(--primary);
+}
+
+.prumyslove_stavby--list--2 {
+    color: var(--primary);
+    list-style-type: circle;
+}
+
+.prumyslove_stavby--list--text {
+    color: var(--text);
+}
 
 /*SAMOOBSLUZNA PRADELNA*/
 .samoobsluzna_pradelna--gallery {

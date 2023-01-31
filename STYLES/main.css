@@ -391,7 +391,7 @@ img {
 
 .prumyslove_stavby--list--2 {
     color: var(--primary);
-    list-style-type: circle;
+    margin-left: 10%;
 }
 
 .prumyslove_stavby--list--text {
@@ -652,6 +652,29 @@ input[type=text], select, textarea {
     
     .novostavby_text {
         margin-left: 10%;
+    }
+
+    /*PRUMYSLOVE STAVBY*/
+
+    .prumyslove_stavby_heading {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 8vh;
+    }
+
+    .prumyslove_stavby_text {
+        margin-left: 10%;
+    }
+
+    .prumyslove_stavby--list {
+        color: var(--primary);
+        margin-left: 15%;
+    }
+    
+    .prumyslove_stavby--list--2 {
+        color: var(--primary);
+        margin-left: 20%;
     }
 
     /*O NAS*/
@@ -945,5 +968,24 @@ input[type=text], select, textarea {
         grid-template-columns: repeat(3,1fr);
         gap: 2%;
     }
+
+    /*REKONSTRUKCE DOMU*/
+
+    .rekonstrukce_domu_heading {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 8vh;
+    }
+
+    .rekonstrukce_domu_text {
+        margin-left: 5%;
+    }
+
+    .rekonstrukce_domu--list {
+        margin-top: 3%;
+        margin-left: 8%;
+    }
+
 }
 

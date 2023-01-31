@@ -543,6 +543,14 @@ input[type=text], select, textarea {
     color: var(--text);
 }
 
+.komunikace_a_plochy--list0 {
+    color: var(--primary);
+}
+
+.komunikace_a_plochy--list2 {
+    color: var(--primary);
+}
+
 @media (min-width: 376px) {
 
     body {
@@ -986,6 +994,33 @@ input[type=text], select, textarea {
         margin-top: 3%;
         margin-left: 8%;
     }
+
+    /*KOMUNIKACE A PLOCHY*/
+    .komunikace_a_plochy_heading {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 8vh;
+    }
+
+    .komunikace_a_plochy_text {
+        margin-left: 5%;
+    }
+    .komunikace_a_plochy--list0 {
+        margin-left: 8%;
+        margin-top: 3%;
+        color: var(--primary);
+    }
+
+    .komunikace_a_plochy--list {
+        margin-left: 3.5%;
+    }
+
+    .komunikace_a_plochy--list2 {
+        margin-left: 15%;
+        color: var(--primary);
+    }
+
 
 }
 

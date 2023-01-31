@@ -462,6 +462,7 @@ img {
     background: var(--primary);
     color: var(--bg);
     margin-bottom: 20%;
+    text-decoration: none;
 }
 
 .table--heading {
@@ -513,6 +514,34 @@ input[type=text], select, textarea {
     margin-top: 20%;
 }
 
+/*REKONSTRUKCE DOMU*/
+.rekonstrukce_domu--list--nadpis {
+    font-size: 2vh;
+    margin-bottom: -2.5%;
+    margin-left: 5%;
+}
+
+
+/*KOMUNIKACE A PLOCHY*/
+.komunikace_a_plochy--list--nadpis {
+    font-size: 2vh;
+    margin-bottom: -2.5%;
+    margin-left: 5%;
+}
+
+.komunikace_a_plochy {
+    margin-left: 5%;
+    margin-top: 30%;
+    margin-bottom: 30%;
+}
+
+.komunikace_a_plochy--list {
+    color: var(--primary);
+}
+
+.komunikace_a_plochy--list--text {
+    color: var(--text);
+}
 
 @media (min-width: 376px) {
 

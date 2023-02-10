@@ -19,29 +19,36 @@
 
 <body>
 
-   <div class="page-nav--mobile">
-    <div class="logo_container">
-        <img class="logo" src="media/logo.png" alt="logo">
-    </div>
-    <div class="hamburger">
-        <p class="page-nav--mobile--menu">MENU</p>
-        <div></div>
-        <div></div>
-        <div></div>
-    </div>
-   </div>
+    <header class="header">
+        <nav class="header__nav">
+                <a href="index.html"><img class="img-responsive" src="./media/logo.svg"  alt="HM Building cz"></a>
+                <menu class="menu hamburger-menu hamburger-menu--hidden">
+                    <li><a href="./index.html" class="active">DOMŮ</a></li>
+                    <li><a href="#popis">SLUŽBY</a></li>
+                    <li><a href="./html/reference.html">REFERENCE</a></li>
+                    <li><a href="./html/onas.html">O NÁS</a></li>
+                    <li><a href="./html/kontakt.html">KONTAKTY</a></li>                
+                </menu>
+                <a class="hamburger" href="javascript:void(0)">menu</a>
+        </nav>
+        <div class="title">
+            <h1>HM Building.cz s.r.o.
+            <span>liberecká stavební společnost</span></h1>
 
-   
-
-   <div class="page-header">
-    <img class="header__photo" src="media/pageheader-1920w.jpg" alt="header photo">
-        <div class="text-block">
-            <div class="page-header--title">
-                <h1>HM Building.cz s.r.o.</h1>
-                <h3 class="page-header--title--light">liberecká stavební společnost</h3>
-            </div>
+            <a></a>
         </div>
-   </div>
+    </header>
+    <script>
+        const hamburgerButtons = document.querySelectorAll(".hamburger");
+        for (const btn of hamburgerButtons) {
+            btn.onclick = (event) => {
+                const menus = document.querySelectorAll(".hamburger-menu");
+                for (const menu of menus) {
+                    menu.classList.toggle("hamburger-menu--hidden");
+                }
+            }
+        }
+    </script>
 
    <header class="header__text">
         <h1 class="header__text--h1">Využijte škálu našich  <span class="text--orange"> služeb</span></h1>

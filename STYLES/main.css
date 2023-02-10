@@ -166,7 +166,7 @@ menu::after {
 }
 
 .hamburger::after {
-    content: url();
+    content: url(../media/hamburger.svg);
 }
 
 /*HEADER*/

@@ -18,17 +18,36 @@
 </head>
 <body>
 
-    <div class="page-nav--mobile">
-        <div class="logo_container">
-            <img class="logo" src="media/logo.png" alt="logo">
+    <header class="header">
+        <nav class="header__nav">
+                <a href="index.html"><img class="img-responsive" src="media/logo.svg"  alt="HM Building cz"></a>
+                <menu class="menu hamburger-menu hamburger-menu--hidden">
+                    <li><a href="index.html" class="active">DOMŮ</a></li>
+                    <li><a href="#popis">SLUŽBY</a></li>
+                    <li><a href="reference.html">REFERENCE</a></li>
+                    <li><a href="info.html">O NÁS</a></li>
+                    <li><a href="kontakt.html">KONTAKTY</a></li>                
+                </menu>
+                <a class="hamburger" href="javascript:void(0)">menu</a>
+        </nav>
+        <div class="title">
+            <h1>HM Building.cz s.r.o.
+            <span>liberecká stavební společnost</span></h1>
+
+            <a></a>
         </div>
-        <div class="hamburger">
-            <p class="page-nav--mobile--menu">MENU</p>
-            <div></div>
-            <div></div>
-            <div></div>
-        </div>
-    </div>
+    </header>
+    <script>
+        const hamburgerButtons = document.querySelectorAll(".hamburger");
+        for (const btn of hamburgerButtons) {
+            btn.onclick = (event) => {
+                const menus = document.querySelectorAll(".hamburger-menu");
+                for (const menu of menus) {
+                    menu.classList.toggle("hamburger-menu--hidden");
+                }
+            }
+        }
+    </script>
 
     <div class="kontaktujte_nas">
         <h1 class="kontaktujte_nas--heading">Kontaktujte nás</h1>

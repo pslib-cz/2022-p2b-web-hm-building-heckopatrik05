@@ -51,7 +51,7 @@ img {
     width: 170px;
     height: 41px;
     color: var(--bg);
-    padding: 12px, 40px, 12px, 40px;
+    padding: 12px 40px 12px 40px;
     gap: 20px;
     text-align: center;
     display: inline-block;
@@ -64,7 +64,7 @@ img {
     width: 170px;
     height: 41px;
     color: var(--bg);
-    padding: 12px, 40px, 12px, 40px;
+    padding: 12px 40px 12px 40px;
     gap: 20px;
     text-align: center;
     display: inline-block;
@@ -84,7 +84,7 @@ img {
     gap: 10px;
     width: 170px;
     height: 41px;
-    padding: 12px, 40px, 12px, 40px;
+    padding: 12px 40px 12px 40px;
     text-decoration: none;
 }
 
@@ -94,7 +94,7 @@ img {
     width: 170px;
     height: 41px;
     color: var(--primary);
-    padding: 12px, 40px, 12px, 40px;
+    padding: 12px 40px 12px 40px;
     gap: 20px;
     text-align: center;
     display: inline-block;
@@ -249,7 +249,7 @@ menu::after {
     align-items: center;
     width: 170px;
     height: 41px;
-    padding: 12px, 40px, 12px, 40px;
+    padding: 12px 40px 12px 40px;
     gap: 10px;
     background: var(--primary);
 }
@@ -318,7 +318,7 @@ menu::after {
     width: 170px;
     height: 41px;
     color: var(--bg);
-    padding: 12px, 40px, 12px, 40px;
+    padding: 12px 40px 12px 40px;
     gap: 10px;
     font-size: 20px;
     margin-top: 7%;
@@ -377,7 +377,7 @@ menu::after {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 12px, 40px, 12px, 40px;
+    padding: 12px 40px 12px 40px;
     gap: 20px;
     width: 200px;
     height: 60px;
@@ -492,7 +492,7 @@ menu::after {
     align-items: center;
     width: 288px;
     height: 55px;
-    padding: 12px, 40px, 12px, 40px;
+    padding: 12px 40px 12px 40px;
     gap: 10px;
     background: var(--primary);
     color: var(--bg);
@@ -631,7 +631,7 @@ input[type=text], select, textarea {
         justify-content: center;
         align-items: center;
         width: 320px;
-        padding: 20px, 50px, 20px, 50px;
+        padding: 20px 50px 20px 50px;
         gap: 20px;
         background: var(--bg);
         text-decoration: none;
@@ -853,7 +853,7 @@ input[type=text], select, textarea {
         align-items: center;
         width: 288px;
         height: 55px;
-        padding: 12px, 40px, 12px, 40px;
+        padding: 12px 40px 12px 40px;
         gap: 10px;
         background: var(--primary);
         color: var(--bg);

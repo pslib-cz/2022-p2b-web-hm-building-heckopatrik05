@@ -71,8 +71,6 @@ img {
     font-size: 20px;
 }
 
-
-
 .btn--outlined {
     background-color: var(--bg); 
     color: var(--primary);
@@ -116,7 +114,7 @@ img {
 }
 
 .menu{
-    margin-top: 25px;
+    margin-top: 1.5em;
     color: white;
     position: absolute;
     left: 0;
@@ -146,7 +144,7 @@ menu::after {
     top: 0;
     width: 0;
     height: 0;
-    margin-right: calc((46px - 25px) / 2);
+    margin-right: calc((3em - 1.5em) / 2);
     transform: translateY(-100%);
     border: 12.5px solid white;
     border-bottom-color: #EB6C27;
@@ -209,8 +207,8 @@ menu::after {
 }
 
 .header__text {
-    margin-top: 80%;
-    margin-bottom: 20%;
+    margin-top: 0.8em;
+    margin-bottom: 0.2em;
 }
 
 .header__text--h1 {
@@ -224,15 +222,16 @@ menu::after {
 /*DUVERA*/
 .duvera{
     position: absolute;
-    left: 0px;
-    right: 0px;
+    margin-top: 2em;
+    left: 0;
+    right: 0;
 }
 
 .duvera-text {
     position: absolute;
-    bottom: 20%;
-    padding-left: 5%;
-    padding-right: 25%;
+    bottom: 1.6em;
+    padding-left: 0.5em;
+    padding-right: 0.25em;
     font-size: large;
     color: var(--bg);
 }
@@ -264,19 +263,19 @@ menu::after {
 }
 
 .service-novostavby {
-    margin-top: 10px;
+    margin-top: 0.6em;
 }
 
 .service-prumyslove_stavby {
-    margin-top: 40px;
+    margin-top: 2.5em;
 }
 
 .service-rekonstrukce_domu {
-    margin-top: 40px;
+    margin-top: 2.5em;
 }
 
 .service-komunikace_zpevnene_plochy {
-    margin-top: 40px;
+    margin-top: 2.5em;
 }
 
 .služby--h3 {
@@ -285,32 +284,32 @@ menu::after {
 }
 
 .service-komunikace_zpevnene_plochy {
-    margin-bottom: 20%;
+    margin-bottom: 0.2em;
 }
 
 /*REFERENCE*/
 
 .reference--page {
-    margin-top: 30%;
+    margin-top: 0.3em;
 }
 
 .reference {
-    margin-top: 110%;
+    margin-top: 20em;
 }
 
 .reference-header {
-    margin-top: 20%;
-    margin-bottom: 20%;
+    margin-top: 0.2em;
+    margin-bottom: 0.2em;
 }
 
 .reference-galerie--text{
     font-size: .8em;
     text-align: center;
-    margin-bottom: 10%;
+    margin-bottom: 0.1em;
 }
 
 .btn_primary--reference {
-    margin: 40px auto 108px auto;
+    margin: 0.15em auto 6.75em auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -321,13 +320,13 @@ menu::after {
     padding: 12px 40px 12px 40px;
     gap: 10px;
     font-size: 20px;
-    margin-top: 7%;
-    margin-bottom: 30%;
+    margin-top: 0.07em;
+    margin-bottom: 0.3em;
     text-decoration: none;
 }
 
 .reference--page--sinle {
-    margin-bottom: 30%;
+    margin-bottom: 0.3em;
 }
 
 /*FOOTER*/
@@ -338,7 +337,7 @@ menu::after {
     left: 0px;
     right: 0px;
     background: var(--primary);
-    margin-bottom: 5%;
+    margin-bottom: 0.05em;
 }
 
 .footer__wrapper {
@@ -351,8 +350,8 @@ menu::after {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 10%;
-    margin-bottom: 15%;
+    margin-top: 0.1em;
+    margin-bottom: 3em;
     width: 288px;
     height: 92px;
 }
@@ -388,8 +387,8 @@ menu::after {
 
 /*O NAS*/
 .o_nas {
-    margin-top: 30%;
-    margin-bottom: 20%;
+    margin-top: 0.3em;
+    margin-bottom: 0.2em;
 }
 
 .o_nas--list {
@@ -402,8 +401,8 @@ menu::after {
 
 /*NOVOSTAVBY*/
 .novostavby {
-    margin-top: 30%;
-    margin-bottom: 30%;
+    margin-top: 0.3em;
+    margin-bottom: 0.3em;
 }
 
 .novostavby--list {
@@ -416,8 +415,8 @@ menu::after {
 
 /*PRUMYSLOVE STAVBY*/
 .prumyslove_stavby {
-    margin-top: 30%;
-    margin-bottom: 30%;
+    margin-top: 0.3em;
+    margin-bottom: 0.3em;
 }
 
 .prumyslove_stavby--list {
@@ -426,7 +425,7 @@ menu::after {
 
 .prumyslove_stavby--list--2 {
     color: var(--primary);
-    margin-left: 10%;
+    margin-left: 0.1em;
 }
 
 .prumyslove_stavby--list--text {
@@ -435,8 +434,8 @@ menu::after {
 
 /*REKONSTRUKCE DOMU*/
 .rekonstrukce_domu {
-    margin-top: 30%;
-    margin-bottom: 30%;
+    margin-top: 0.3em;
+    margin-bottom: 0.3em;
 }
 
 .rekonstrukce_domu--list {
@@ -449,20 +448,20 @@ menu::after {
 
 /*SAMOOBSLUZNA PRADELNA*/
 .samoobsluzna_pradelna--gallery {
-    margin-top: 10%;
-    margin-bottom: 20%;
+    margin-top: 0.1em;
+    margin-bottom: 0.2em;
     width: 100%;
     height: 100%;
 }
 
 .samoobsluzna_pradelna--text {
-    margin-top: 20%;
+    margin-top: 0.2em;
 }
 
 /*KONTAKT*/
 
 .kontaktujte_nas {
-    margin-top: 20%;
+    margin-top: 0.2em;
 }
 
 .kontaktujte_nas--photo {
@@ -473,11 +472,11 @@ menu::after {
 
 .kontaktujte_nas--table {
     position: relative;
-    margin-top: 80%;
+    margin-top: 14em;
 }
 
 .kontaktujte_nas--table--text {
-    margin-bottom: 20%;
+    margin-bottom: 0.2em;
 }
 
 .kontakt--mapa {
@@ -485,7 +484,7 @@ menu::after {
 }
 
 .btn_primary--kontakt {
-    margin-top: 10%;
+    margin-top: 0.1em;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -496,7 +495,7 @@ menu::after {
     gap: 10px;
     background: var(--primary);
     color: var(--bg);
-    margin-bottom: 20%;
+    margin-bottom: 0.2em;
     text-decoration: none;
 }
 
@@ -510,8 +509,8 @@ input[type=text], select, textarea {
     border: 1px solid var(--primary); 
     border-radius: 4px; 
     box-sizing: border-box; 
-    margin-top: 6px; 
-    margin-bottom: 16px; 
+    margin-top: 0.3em; 
+    margin-bottom: 1em; 
     resize: vertical 
   }
 
@@ -526,48 +525,48 @@ input[type=text], select, textarea {
 /*PLOCHY*/
 
 .venkovni_plochy--gallery {
-    margin-top: 10%;
-    margin-bottom: 20%;
+    margin-top: 0.1em;
+    margin-bottom: 0.2em;
     width: 100%;
     height: 100%;
 }
 
 .venkovni_plochy--text {
-    margin-top: 20%;
+    margin-top: 0.2em;
 }
 
 /*HASICSKA ZBROJNICE*/
 
 .hasicska_zbrojnice--gallery {
-    margin-top: 10%;
-    margin-bottom: 20%;
+    margin-top: 0.1em;
+    margin-bottom: 0.2em;
     width: 100%;
     height: 100%;
 }
 
 .hasicska_zbrojnice--text {
-    margin-top: 20%;
+    margin-top: 0.2em;
 }
 
 /*REKONSTRUKCE DOMU*/
 .rekonstrukce_domu--list--nadpis {
     font-size: 2vh;
-    margin-bottom: -2.5%;
-    margin-left: 5%;
+    margin-bottom: -0.025em;
+    margin-left: 0.05em;
 }
 
 
 /*KOMUNIKACE A PLOCHY*/
 .komunikace_a_plochy--list--nadpis {
     font-size: 2vh;
-    margin-bottom: -2.5%;
-    margin-left: 5%;
+    margin-bottom: -0.025em;
+    margin-left: 0.05em;
 }
 
 .komunikace_a_plochy {
-    margin-left: 5%;
-    margin-top: 30%;
-    margin-bottom: 30%;
+    margin-left: 0.05em;
+    margin-top: 0.3em;
+    margin-bottom: 0.3em;
 }
 
 .komunikace_a_plochy--list {
@@ -610,8 +609,8 @@ input[type=text], select, textarea {
         align-items: center;
         width: 800px;
         height: 136px;
-        margin-top: 5%;
-        margin-bottom: 10%;
+        margin-top: 0.05em;
+        margin-bottom: 3em;
     }
     .footer__orange--heading {
         color: var(--bg);
@@ -635,7 +634,7 @@ input[type=text], select, textarea {
         gap: 20px;
         background: var(--bg);
         text-decoration: none;
-        margin-bottom: 5%;
+        margin-bottom: 0.05em;
     }
 
     /*SLUZBY*/
@@ -648,19 +647,19 @@ input[type=text], select, textarea {
     }
     
     .service-novostavby {
-        margin-top: 10px;
+        margin-top: 0.63em;
     }
     
     .service-prumyslove_stavby {
-        margin-top: 40px;
+        margin-top: 2.5em;
     }
     
     .service-rekonstrukce_domu {
-        margin-top: 40px;
+        margin-top: 2.5em;
     }
     
     .service-komunikace_zpevnene_plochy {
-        margin-top: 40px;
+        margin-top: 2.5em;
     }
     
     .služby--h3 {
@@ -669,16 +668,16 @@ input[type=text], select, textarea {
     }
     
     .service-komunikace_zpevnene_plochy {
-        margin-bottom: 20%;
+        margin-bottom: 0.2em;
     }
 
     /*NOVOSTAVBY*/
     .novostavby {
-        margin-top: 15%;
-        margin-bottom: 30%;
+        margin-top: 0.15em;
+        margin-bottom: 0.3em;
     }
     .novostavby--list {
-        margin-left: 15%;
+        margin-left: 0.15em;
         color: var(--primary);
         line-height: 35px;
     }
@@ -694,7 +693,7 @@ input[type=text], select, textarea {
     }
     
     .novostavby_text {
-        margin-left: 10%;
+        margin-left: 0.1em;
     }
 
     /*PRUMYSLOVE STAVBY*/
@@ -707,30 +706,30 @@ input[type=text], select, textarea {
     }
 
     .prumyslove_stavby_text {
-        margin-left: 10%;
+        margin-left: 0.1em;
     }
 
     .prumyslove_stavby--list {
         color: var(--primary);
-        margin-left: 15%;
+        margin-left: 0.15em;
     }
     
     .prumyslove_stavby--list--2 {
         color: var(--primary);
-        margin-left: 20%;
+        margin-left: 0.2em;
     }
 
     /*O NAS*/
     .o_nas {
-        margin-top: 15%;
-        margin-bottom: 20%;
+        margin-top: 0.15em;
+        margin-bottom: 0.2em;
     }
 
     .o_nas--list {
-        margin-left: 15%;
+        margin-left: 0.15em;
         color: var(--primary);
         line-height: 35px;
-        margin-bottom: 5%;
+        margin-bottom: 0.05em;
     }
 
     .o_nas--list--text {
@@ -745,19 +744,19 @@ input[type=text], select, textarea {
     }
 
     .o_nas--text1 {
-        margin-left: 10%;
+        margin-left: 0.1em;
     }
     .o_nas--text2 {
-        margin-left: 10%;
+        margin-left: 0.1em;
     }
     .o_nas--text3 {
-        margin-left: 10%;
+        margin-left: 0.1em;
     }
     .o_nas--text4 {
-        margin-left: 10%;
+        margin-left: 0.1em;
     }
     .o_nas--text5 {
-        margin-left: 10%;
+        margin-left: 0.1em;
     }
 
     /*HEADER*/
@@ -783,7 +782,7 @@ input[type=text], select, textarea {
     /*REFERENCE*/
 
     .reference {
-        margin-top: 110%;
+        margin-top: 1.1em;
     }
     
     .reference-header {
@@ -810,7 +809,7 @@ input[type=text], select, textarea {
 
     /*KONTAKT*/
     .kontaktujte_nas {
-        margin-top: 20%;
+        margin-top: 0.2em;
     }
 
     .kontaktujte_nas--heading {
@@ -826,7 +825,7 @@ input[type=text], select, textarea {
         justify-content: center;
         font-weight: lighter;
         font-size: 2vh;
-        margin-bottom: 10%;
+        margin-bottom: 0.1em;
     }
     
     .kontaktujte_nas--photo {
@@ -838,15 +837,15 @@ input[type=text], select, textarea {
     .kontaktujte_nas--table {
         position: relative;
         max-width: 630px;
-        margin-left: 10%;
+        margin-left: 0.1em;
     }
     
     .kontaktujte_nas--table--text {
-        margin-bottom: 5%;
+        margin-bottom: 0.05em;
     }
     
     .btn_primary--kontakt {
-        margin-top: 10%;
+        margin-top: 0.1em;
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -857,7 +856,7 @@ input[type=text], select, textarea {
         gap: 10px;
         background: var(--primary);
         color: var(--bg);
-        margin-bottom: 20%;
+        margin-bottom: 0.2em;
     }
     
     .table--heading {
@@ -870,8 +869,8 @@ input[type=text], select, textarea {
         border: 1px solid var(--primary); 
         border-radius: 4px; 
         box-sizing: border-box; 
-        margin-top: 6px; 
-        margin-bottom: 16px; 
+        margin-top: 0.37em; 
+        margin-bottom: 1em; 
         resize: vertical 
     }
     
@@ -911,18 +910,18 @@ input[type=text], select, textarea {
         justify-content: center;
         font-weight: lighter;
         font-size: 2vh;
-        margin-bottom: 5%;
+        margin-bottom: 0.05em;
     }
 
     .venkovni_plochy--gallery {
-        margin-top: 5%;
-        margin-bottom: 20%;
+        margin-top: 0.05em;
+        margin-bottom: 0.2em;
         width: 100%;
         height: 100%;
     }
     
     .venkovni_plochy--text {
-        margin-top: 20%;
+        margin-top: 0.2em;
     }
 
     .venkovni_plochy--gallery {
@@ -946,18 +945,18 @@ input[type=text], select, textarea {
         justify-content: center;
         font-weight: lighter;
         font-size: 2vh;
-        margin-bottom: 5%;
+        margin-bottom: 0.05em;
     }
 
     .hasicska_zbrojnice--gallery {
-        margin-top: 5%;
-        margin-bottom: 20%;
+        margin-top: 0.05em;
+        margin-bottom: 0.2em;
         width: 100%;
         height: 100%;
     }
     
     .hasicska_zbrojnice--text {
-        margin-top: 20%;
+        margin-top: 0.2em;
     }
 
     .hasicska_zbrojnice--gallery {
@@ -981,18 +980,18 @@ input[type=text], select, textarea {
         justify-content: center;
         font-weight: lighter;
         font-size: 2vh;
-        margin-bottom: 5%;
+        margin-bottom: 0.05em;
     }
 
     .samoobsluzna_pradelna--gallery {
-        margin-top: 5%;
-        margin-bottom: 20%;
+        margin-top: 0.05em;
+        margin-bottom: 0.2em;
         width: 100%;
         height: 100%;
     }
 
     .samoobsluzna_pradelna--text {
-        margin-top: 20%;
+        margin-top: 0.2em;
     }
 
     .samoobsluzna_pradelna--gallery {
@@ -1026,8 +1025,8 @@ input[type=text], select, textarea {
     }
 
     .rekonstrukce_domu--list {
-        margin-top: 3%;
-        margin-left: 8%;
+        margin-top: 0.03em;
+        margin-left: 0.08em;
     }
 
     /*KOMUNIKACE A PLOCHY*/
@@ -1039,20 +1038,20 @@ input[type=text], select, textarea {
     }
 
     .komunikace_a_plochy_text {
-        margin-left: 5%;
+        margin-left: 0.05em;
     }
     .komunikace_a_plochy--list0 {
-        margin-left: 8%;
-        margin-top: 3%;
+        margin-left: 0.08em;
+        margin-top: 0.03em;
         color: var(--primary);
     }
 
     .komunikace_a_plochy--list {
-        margin-left: 3.5%;
+        margin-left: 0.035em;
     }
 
     .komunikace_a_plochy--list2 {
-        margin-left: 15%;
+        margin-left: 0.15em;
         color: var(--primary);
     }
 

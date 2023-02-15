@@ -1,3 +1,9 @@
+@font-face {
+    font-family: OpenSans;
+    src: url(../fonts/OpenSans.ttf);
+    font-style: normal;
+}
+
 /*root colors*/
 :root {
     --bg: #FFFFFF;
@@ -7,7 +13,7 @@
 }
 
 html {
-    font-family: 'Open Sans', sans-serif;
+    font-family: OpenSans;
 }
 
 .body {

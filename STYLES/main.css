@@ -227,24 +227,19 @@ menu::after {
 
 /*DUVERA*/
 .duvera{
-    position: absolute;
     margin-top: 2em;
-    left: 0;
-    right: 0;
+    background-image: url(../media/background-CTAblock-4460w.jpg);
+    background-color: #303030;
+    background-size: cover;
+    background-position: center center;
+    box-shadow: inset 0 0 0 1000px rgb(39 39 39 / 80%);
+    padding: 0.8em;
 }
 
 .duvera-text {
-    position: absolute;
-    bottom: 1.6em;
-    padding-left: 0.5em;
-    padding-right: 0.25em;
-    font-size: large;
-    color: var(--bg);
-}
-
-.duvera_img {
-    max-width: 100%;
-    filter: brightness(35%);
+    color: #ffffff;
+    font-size: 1em;
+    font-weight: 700;
 }
 
 .btn_primary--duvera {
@@ -257,6 +252,8 @@ menu::after {
     padding: 0.75em 2.5em 0.75em 2.5em;
     gap: 10px;
     background: var(--primary);
+    color: var(--bg);
+    text-decoration: none;
 }
 
 /*SLUŽBY*/
@@ -300,7 +297,7 @@ menu::after {
 }
 
 .reference {
-    margin-top: 20em;
+    margin-top: 2em;
 }
 
 .reference-header {

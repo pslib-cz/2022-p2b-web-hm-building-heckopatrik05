@@ -743,19 +743,7 @@ input[type=text], select, textarea {
         font-size: 8vh;
     }
 
-    .o_nas--text1 {
-        margin-left: 0.1em;
-    }
-    .o_nas--text2 {
-        margin-left: 0.1em;
-    }
-    .o_nas--text3 {
-        margin-left: 0.1em;
-    }
-    .o_nas--text4 {
-        margin-left: 0.1em;
-    }
-    .o_nas--text5 {
+    .o_nas--text {
         margin-left: 0.1em;
     }
 

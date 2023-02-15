@@ -5,12 +5,12 @@ OPRAVA:\
 · Font nenastavujeme v každém souboru zvlášť\
 · Výchozí font-size a font-family se nastavuje v selektoru html {}\
 · Menu zcela schází\
-· Navigaci strukturovat jako <nav><menu><li><a>\
-· V page-header nebude obrázek jako <img>, ale stylem background-img\
+· Navigaci strukturovat jako (nav)(menu)(li)(a)\
+· V page-header nebude obrázek jako (img), ale stylem background-img\
 · chybná struktura nadpisů h1-h2-h3; h1 je na stránce vždy pouze jednou\
-· nepoužívat tag <br>\
-· .duvera_img nemá být <img>, ale obrázek na pozadí\
-· Tag <p> nelze zanořovat (nelze p uvnitř p)\
+· nepoužívat tag (br)\
+· .duvera_img nemá být (img), ale obrázek na pozadí\
+· Tag (p) nelze zanořovat (nelze p uvnitř p)\
 · .reference-galerie je společný kontejner pro tři vložené reference\
 · Nedělat responzivní obrázky přes img selektor, ale např. .img-resposive\
 · prakticky vůbec nepoužívejte height!\

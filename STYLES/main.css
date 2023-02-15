@@ -610,7 +610,7 @@ input[type=text], select, textarea {
         width: 800px;
         height: 136px;
         margin-top: 0.05em;
-        margin-bottom: 3em;
+        margin-bottom: 10em;
     }
     .footer__orange--heading {
         color: var(--bg);
@@ -836,6 +836,8 @@ input[type=text], select, textarea {
     
     .kontaktujte_nas--table {
         position: relative;
+        margin-top: 50em;
+        margin-bottom: 10em;
         max-width: 630px;
         margin-left: 0.1em;
     }

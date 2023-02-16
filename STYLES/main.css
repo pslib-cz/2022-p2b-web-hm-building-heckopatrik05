@@ -296,32 +296,20 @@ html {
 }
 
 /*SLUŽBY*/
-.pravej_dolni_roh {
+.odd {
     width: 100%;
     height: 100%;
     border-bottom-right-radius: 40px;
 }
 
-.levej_dolni_roh {
+.even {
     width: 100%;
     height: 100%;
     border-bottom-left-radius: 40px;
 }
 
-.service-novostavby {
+.service {
     margin-top: 5em;
-}
-
-.service-prumyslove_stavby {
-    margin-top: 2.5em;
-}
-
-.service-rekonstrukce_domu {
-    margin-top: 2.5em;
-}
-
-.service-komunikace_zpevnene_plochy {
-    margin-top: 2.5em;
 }
 
 .služby--h3 {
@@ -787,27 +775,15 @@ input[type=text], select, textarea {
     }
 
     /*SLUZBY*/
-    .pravej_dolni_roh {
+    .odd {
         border-bottom-right-radius: 40px;
     }
     
-    .levej_dolni_roh {
+    .even {
         border-bottom-left-radius: 40px;
     }
     
-    .service-novostavby {
-        margin-top: 0.63em;
-    }
-    
-    .service-prumyslove_stavby {
-        margin-top: 2.5em;
-    }
-    
-    .service-rekonstrukce_domu {
-        margin-top: 2.5em;
-    }
-    
-    .service-komunikace_zpevnene_plochy {
+    .service {
         margin-top: 2.5em;
     }
     

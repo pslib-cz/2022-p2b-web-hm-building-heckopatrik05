@@ -149,7 +149,6 @@ menu::after {
     right: 0;
     top: 0;
     width: 0;
-    height: 0;
     margin-right: calc((3em - 1.5em) / 2);
     transform: translateY(-100%);
     border: 12.5px solid white;
@@ -252,7 +251,6 @@ menu::after {
     justify-content: center;
     align-items: center;
     width: 170px;
-    height: 41px;
     padding: 0.75em 2.5em 0.75em 2.5em;
     gap: 10px;
     background: var(--primary);
@@ -326,7 +324,6 @@ menu::after {
     align-items: center;
     background-color: var(--primary);
     width: 170px;
-    height: 41px;
     color: var(--bg);
     padding: 0.75em 2.5em 0.75em 2.5em;
     gap: 10px;
@@ -364,7 +361,6 @@ menu::after {
     margin-top: 0.1em;
     margin-bottom: 3em;
     width: 288px;
-    height: 92px;
 }
 
 .footer__orange--heading {
@@ -390,7 +386,6 @@ menu::after {
     padding: 0.75em 2.5em 0.75em 2.5em;
     gap: 20px;
     width: 200px;
-    height: 60px;
     background: var(--bg);
     text-decoration: none;
 }
@@ -504,7 +499,6 @@ menu::after {
     justify-content: center;
     align-items: center;
     width: 288px;
-    height: 55px;
     padding: 0.75em 2.5em 0.75em 2.5em;
     gap: 10px;
     background: var(--primary);
@@ -622,7 +616,6 @@ input[type=text], select, textarea {
         flex-direction: column;
         align-items: center;
         width: 800px;
-        height: 136px;
         margin-top: 0.05em;
         margin-bottom: 10em;
     }
@@ -793,24 +786,15 @@ input[type=text], select, textarea {
         align-items: center;
     }
     
-    .reference-galerie--text{
-        align-items: center;
-        text-align: center;
-        font-size: 2vh;
-    }
-
     .reference-header--heading {
         font-size: 8vh;
     }
 
     .reference-galerie {
-        margin-top: 0.05em;
-        margin-bottom: 10em;
-        width: 100%;
-        height: 100%;
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(3,1fr);
         gap: 2%;
+        margin-bottom: 5em;
     }
 
     /*KONTAKT*/
@@ -859,7 +843,6 @@ input[type=text], select, textarea {
         justify-content: center;
         align-items: center;
         width: 288px;
-        height: 55px;
         padding: 0.75em 2.5em 0.75em 2.5em;
         gap: 10px;
         background: var(--primary);
@@ -996,17 +979,6 @@ input[type=text], select, textarea {
 
     .samoobsluzna_pradelna--text {
         margin-top: 0.2em;
-    }
-
-    /*REFERENCE*/
-    .reference-galerie--text {
-        display: none;
-    }
-
-    .reference-galerie--img {
-        display: grid;
-        grid-template-columns: repeat(3,1fr);
-        gap: 2%;
     }
 
     /*REKONSTRUKCE DOMU*/

@@ -22,7 +22,7 @@ html {
     color: var(--text--gray);
 }
 
-img {
+.img-resposive {
     width: 100%;
     height: 100%;
 }
@@ -173,6 +173,10 @@ menu::after {
     content: url(../media/hamburger.svg);
 }
 
+.title {
+    background-image: url(../media/pageheader-1920w.jpg);
+}
+
 /*HEADER*/
 .page-header {
     position: absolute;
@@ -258,10 +262,14 @@ menu::after {
 
 /*SLUŽBY*/
 .pravej_dolni_roh {
+    width: 100%;
+    height: 100%;
     border-bottom-right-radius: 40px;
 }
 
 .levej_dolni_roh {
+    width: 100%;
+    height: 100%;
     border-bottom-left-radius: 40px;
 }
 
@@ -329,7 +337,7 @@ menu::after {
 }
 
 .reference--page--sinle {
-    margin-bottom: 0.3em;
+    margin-bottom: 5em;
 }
 
 /*FOOTER*/
@@ -405,7 +413,7 @@ menu::after {
 /*NOVOSTAVBY*/
 .novostavby {
     margin-top: 0.3em;
-    margin-bottom: 0.3em;
+    margin-bottom: 5em;
 }
 
 .novostavby--list {
@@ -419,7 +427,7 @@ menu::after {
 /*PRUMYSLOVE STAVBY*/
 .prumyslove_stavby {
     margin-top: 0.3em;
-    margin-bottom: 0.3em;
+    margin-bottom: 5em;
 }
 
 .prumyslove_stavby--list {
@@ -438,7 +446,7 @@ menu::after {
 /*REKONSTRUKCE DOMU*/
 .rekonstrukce_domu {
     margin-top: 0.3em;
-    margin-bottom: 0.3em;
+    margin-bottom: 5em;
 }
 
 .rekonstrukce_domu--list {
@@ -452,7 +460,7 @@ menu::after {
 /*SAMOOBSLUZNA PRADELNA*/
 .samoobsluzna_pradelna--gallery {
     margin-top: 0.1em;
-    margin-bottom: 0.2em;
+    margin-bottom: 5em;
     width: 100%;
     height: 100%;
 }
@@ -469,6 +477,8 @@ menu::after {
 
 .kontaktujte_nas--photo {
     position: absolute;
+    width: 100%;
+    height: 100%;
     left: 0px;
     right: 0px;
 }
@@ -476,6 +486,7 @@ menu::after {
 .kontaktujte_nas--table {
     position: relative;
     margin-top: 14em;
+    margin-bottom: 5em;
 }
 
 .kontaktujte_nas--table--text {
@@ -529,7 +540,7 @@ input[type=text], select, textarea {
 
 .venkovni_plochy--gallery {
     margin-top: 0.1em;
-    margin-bottom: 0.2em;
+    margin-bottom: 5em;
     width: 100%;
     height: 100%;
 }
@@ -542,7 +553,7 @@ input[type=text], select, textarea {
 
 .hasicska_zbrojnice--gallery {
     margin-top: 0.1em;
-    margin-bottom: 0.2em;
+    margin-bottom: 5em;
     width: 100%;
     height: 100%;
 }
@@ -569,7 +580,7 @@ input[type=text], select, textarea {
 .komunikace_a_plochy {
     margin-left: 0.05em;
     margin-top: 0.3em;
-    margin-bottom: 0.3em;
+    margin-bottom: 5em;
 }
 
 .komunikace_a_plochy--list {
@@ -637,7 +648,7 @@ input[type=text], select, textarea {
         gap: 20px;
         background: var(--bg);
         text-decoration: none;
-        margin-bottom: 0.05em;
+        margin-bottom: 5em;
     }
 
     /*SLUZBY*/
@@ -793,9 +804,13 @@ input[type=text], select, textarea {
     }
 
     .reference-galerie {
-        display: flex;
-        flex-direction: row;
-        align-items: flex-start;
+        margin-top: 0.05em;
+        margin-bottom: 10em;
+        width: 100%;
+        height: 100%;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2%;
     }
 
     /*KONTAKT*/
@@ -908,19 +923,16 @@ input[type=text], select, textarea {
 
     .venkovni_plochy--gallery {
         margin-top: 0.05em;
-        margin-bottom: 0.2em;
+        margin-bottom: 20em;
         width: 100%;
         height: 100%;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2%;
     }
     
     .venkovni_plochy--text {
         margin-top: 0.2em;
-    }
-
-    .venkovni_plochy--gallery {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        gap: 2%;
     }
 
     /*HASICSKA ZBROJNICE*/
@@ -943,20 +955,16 @@ input[type=text], select, textarea {
 
     .hasicska_zbrojnice--gallery {
         margin-top: 0.05em;
-        margin-bottom: 0.2em;
+        margin-bottom: 20em;
         width: 100%;
         height: 100%;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2%;
     }
     
     .hasicska_zbrojnice--text {
         margin-top: 0.2em;
-    }
-
-    .hasicska_zbrojnice--gallery {
-        display: grid;
-        grid-template-rows: repeat(8, 1fr);
-        grid-template-columns: repeat(3, 1fr);
-        gap: 2%;
     }
 
     /*SAMOOBSLUZNA PRADELNA*/
@@ -978,19 +986,16 @@ input[type=text], select, textarea {
 
     .samoobsluzna_pradelna--gallery {
         margin-top: 0.05em;
-        margin-bottom: 0.2em;
+        margin-bottom: 5em;
         width: 100%;
         height: 100%;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2%;
     }
 
     .samoobsluzna_pradelna--text {
         margin-top: 0.2em;
-    }
-
-    .samoobsluzna_pradelna--gallery {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        gap: 2%;
     }
 
     /*REFERENCE*/

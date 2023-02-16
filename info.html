@@ -10,35 +10,25 @@
 </head>
 <body>
 
-    <header class="header">
-        <nav class="header__nav">
-                <a href="index.html"><img class="img-responsive" src="media/logo.svg"  alt="HM Building cz"></a>
-                <menu class="menu hamburger-menu hamburger-menu--hidden">
-                    <li><a href="index.html" class="active">DOMŮ</a></li>
-                    <li><a href="#popis">SLUŽBY</a></li>
-                    <li><a href="reference.html">REFERENCE</a></li>
-                    <li><a href="info.html">O NÁS</a></li>
-                    <li><a href="kontakt.html">KONTAKTY</a></li>                
-                </menu>
-                <a class="hamburger" href="javascript:void(0)">menu</a>
+    <header class="website-page-header">
+        <nav class="page-navbar">
+            <a href="./index.html"><img class="page-navbar__logo" alt="Logo stránky" src="media/logo.svg"></a>
+            <a onclick="Hamburger()" class="hamburger__text" href="javascript:void(0)">MENU   
+                <button class="page-navbar__hamburger"><img src="media/hamburger.svg" alt=""></button>
+            </a>
+            <ul id="hamburger" class="page-navbar__items">
+                <li class="nav-active"><a href="./index.html">Domů</a></li>
+                <li><a href="index.html">Služby</a></li>
+                <li><a href="reference.html">Reference</a></li>
+                <li><a href="info.html">O nás</a></li>
+                <li><a href="kontakt.html">Kontakt</a></li>
+            </ul>
         </nav>
-        <div class="title">
-            <h1>HM Building.cz s.r.o.
-            <span>liberecká stavební společnost</span></h1>
-
-            <a></a>
-        </div>
-    </header>
+    </header> 
     <script>
-        const hamburgerButtons = document.querySelectorAll(".hamburger");
-        for (const btn of hamburgerButtons) {
-            btn.onclick = (event) => {
-                const menus = document.querySelectorAll(".hamburger-menu");
-                for (const menu of menus) {
-                    menu.classList.toggle("hamburger-menu--hidden");
-                }
+        function Hamburger() {
+            document.getElementById("hamburger").classList.toggle("is-active");
             }
-        }
     </script>
 
     <div class="o_nas">

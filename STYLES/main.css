@@ -107,104 +107,135 @@ html {
 }
 
 /*NAVBAR*/
-.header {
-    background-color: white;
-}
-
-.header__nav{
-    position: relative;
+.page-navbar {
+    background-color: var(--bg);
     display: flex;
     justify-content: space-between;
-    margin:1.5em 1.2em 2em 1.2em;
-    height: 53px;
+    align-items: center;
+    position: relative;
+    user-select: none;
 }
 
-.menu{
-    margin-top: 1.5em;
-    color: white;
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 100%;
+.page-navbar__logo {
+    height: 40px;
+    width: auto;
+    margin: 30px 5px;
+}
+
+.page-navbar__hamburger {
+    padding: 0;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+
+    font-family: Icons;
+    font-size: 2.7em;
+    color: var(--primary);
+    background-image: linear-gradient(45deg, #EB6C27, #FFBE9A);
+    background-size: 100%;
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+}
+
+.hamburger__text {
+    color: var(--text);
+    font-size: 0.75em;
+    margin-right: 1.5em;
     display: flex;
     flex-direction: column;
-    list-style-type: none;
-    background-color: #EB6C27;
-    padding: 1em;
-    gap: 0.5em;
 }
 
-.menu a {
-    text-decoration: none;
-    color: inherit;
-    border-bottom: 1px solid currentColor;
-}
-.menu a:hover {
-    font-weight: bolder;
-}
-
-menu::after {
-    content: "";
+.page-navbar__items {
+    display: none;
+    list-style-type: none; 
+    margin: 0;
+    background-color: var(--primary);
+    
     position: absolute;
+    padding: 2em 0;
+    padding-left: 20px;
+    top: 100%;
+    left: 0;
     right: 0;
-    top: 0;
-    width: 0;
-    margin-right: calc((3em - 1.5em) / 2);
-    transform: translateY(-100%);
-    border: 12.5px solid white;
-    border-bottom-color: #EB6C27;
-    border-bottom-style: solid;
-    border-bottom-width: 25px;
-    border-top: none;
+    margin: 0 1em;
 }
 
-.navbar{
-    border: black 2px solid;
+.page-navbar__items::before {
+    content: " ";
+    width: 0; 
+    height: 0; 
+    border-left: 12px solid transparent;
+    border-right: 12px solid transparent;
+    border-bottom: 18px solid var(--primary);
+
+    position: absolute;
+    top: -18px;
+    right: 8px;
 }
 
-.hamburger {
+.page-navbar__items li {
+    padding-bottom: 1em;
+    font-weight: 700;
+}
+
+.page-navbar__items li a {
+    color: #ffffff;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+.page-navbar__items li:last-of-type { 
+    padding-bottom: 0;
+}
+
+.is-active {
+    display: block;
+}
+
+.page-header {
+    background-image: url("../media/pageheader-1920w.jpg");
+    box-shadow: inset 0 0 0 1000px rgba(39, 39, 39, 0.8);
+    background-color: #303030;
+    min-height: 40vh;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: end;
+}
+
+.page-header--other {
     display: none;
 }
 
-.hamburger::after {
-    content: url(../media/hamburger.svg);
-}
-
-.title {
-    background-image: url(../media/pageheader-1920w.jpg);
-}
-
-/*HEADER*/
-.page-header {
-    position: absolute;
-    left: 0px;
-    right: 0px;
-}
-
-.text-block {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.page-header--title {
-    font-size: 0.6em;
-    font-weight: bolder;
+.page-header__main-heading {
+    color: #ffffff;
     text-align: center;
-    margin: 0;
+    font-size: 1.9em;
+    font-weight: 800;
 }
 
-.page-header--title--light {
-    font-weight: lighter;
+.page-header__second-heading {
+    color: #ffffff;
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: 300;
+    padding-bottom: 1.8em;
+    padding-top: 0.5em;
+    display: block;
 }
 
-.header__photo{
-    filter: brightness(35%);
-
+.page-header__cta {
+    display: none;
+    text-align: center;
 }
+
 
 .text-block {
     position: absolute;
@@ -216,7 +247,7 @@ menu::after {
 }
 
 .header__text {
-    margin-top: 0.8em;
+    margin-top: 3em;
     margin-bottom: 0.2em;
 }
 
@@ -272,7 +303,7 @@ menu::after {
 }
 
 .service-novostavby {
-    margin-top: 0.6em;
+    margin-top: 5em;
 }
 
 .service-prumyslove_stavby {
@@ -599,6 +630,96 @@ input[type=text], select, textarea {
         max-width: 1920px;
     }
     
+
+    .page-navbar__hamburger {
+        display: none;
+    }
+
+    .hamburger__text {
+        display: none;
+    }
+
+    .page-navbar__items::before {
+        display: none;
+    }
+
+    .page-navbar {
+        width: inherit;
+        position: absolute;
+        top: 35px;
+        right: 100px;
+        left: 100px;
+        height: 65px;
+    }
+
+    .page-navbar__logo {
+        margin: 0.8em;
+    }
+
+    .page-navbar__items {
+        position: static;
+        background-color: #ffffff;
+        width: 50%;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .page-navbar__items li {
+        font-weight: 400;
+        font-size: 0.8em;
+        padding: 0;
+        display: flex;
+    }
+
+    .page-navbar__items li a {
+        height: 65px;
+        padding: 0 1.5em;
+        display: flex;
+        align-items: center;
+        color: var(--text);
+        text-decoration: none;
+    }
+
+    .nav-active {
+        background-color: var(--primary);
+    }
+
+    .nav-active a {
+        color: #ffffff !important;
+    }
+    .page-navbar__items li:hover {                                   
+        background-color: var(--primary);
+        transition: 0.2s;
+    }
+    .page-navbar__items li:hover > a { 
+        color: #ffffff;
+    }
+
+    .page-header {
+        min-height: 85vh;
+        padding-bottom: 2em;
+    }
+
+    .page-header--other {
+        display: flex;
+        min-height: 12vh;
+    }
+
+    .page-header--other * {
+        display: none;
+    }
+
+    .page-header__main-heading {
+        font-size: 4em;
+    }
+
+    .page-header__second-heading {
+        font-size: 2rem;
+        
+    }
+
     /*FOOTER*/
     .footer__orange {
         position: absolute;
@@ -777,10 +898,11 @@ input[type=text], select, textarea {
     /*REFERENCE*/
 
     .reference {
-        margin-top: 1.1em;
+        margin-top: 10em;
     }
     
     .reference-header {
+        margin-top: 10em;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -924,6 +1046,7 @@ input[type=text], select, textarea {
         display: flex;
         align-items: center;
         justify-content: center;
+        margin-top: 5em;
         font-size: 8vh;
     }
 
@@ -933,7 +1056,7 @@ input[type=text], select, textarea {
         justify-content: center;
         font-weight: lighter;
         font-size: 2vh;
-        margin-bottom: 0.05em;
+        margin-bottom: 2em;
     }
 
     .hasicska_zbrojnice--gallery {
